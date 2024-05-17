@@ -1,0 +1,349 @@
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: beige;
+    height: 100vh;
+}
+header{
+    position: relative;
+    background-color: hsl(0, 0%, 11%);
+    color: aliceblue;
+    text-align: left;
+    margin-top: 0;
+    height: 10%;
+    padding-top: 1%;
+    font-size: x-large;
+    border-bottom: 3px solid black;
+}
+#heading{
+    line-height: 10%;
+    position: relative;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+#t{
+    padding: 0px;
+    margin: 0px;
+    height: 2vh;
+}
+.list{
+    float:left;
+    list-style: none;
+    height: 100%;
+    padding-top: 0cap;
+    width: 7%;
+    font-size: small;
+    margin: 0;
+    gap: 0;
+}
+.list:hover{
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding-left: 0px;
+}
+#home{
+    background-color: black;
+    color: aliceblue;
+    padding-left: 0px;
+}
+#dr{
+    padding-left: 0%;
+    width:25px;
+}
+#ent{
+    width:110px;
+}
+.list img{
+    height: 2.8vh;
+    padding-bottom: 0vh;
+    line-height: 0%;
+}
+
+.search{
+    float:right;
+    padding-bottom: 0vh;
+    width:100px;
+    list-style: none;
+}
+.search img{
+    height: 4vh;
+    padding-bottom: 0vh;
+    padding-right: 20px;
+}
+
+#weather{
+    background-color: rgb(194, 193, 193);
+    height: 5vh;
+    margin: 0;
+    padding-top: 0%;
+}
+
+#weather li{
+    list-style: none;
+}
+.left{
+    float: left;
+    line-height: 0%;
+    margin-left: 0;
+    padding-left: 0px;
+    font-weight: bold;
+}
+#thunder{
+    height: 5vh;
+    align-self: left;
+    margin-left: 0px;
+    padding-left: 0%;
+}
+.middle{
+    float: left;
+    line-height: 0vh;
+    margin-left: 0;
+    padding-left: 8px;
+}
+.right{
+    float: left;
+    line-height: 0%;
+}
+#rainy{
+    height: 5vh;
+    padding-left: 680px;
+}
+#newz{
+    background-color: rgb(245, 243, 241);
+    height: 30em;
+    width: 100%;
+    border-radius: 6px;
+   
+}
+#l{
+    background-image: url("book.jpg");
+    width: 400px;
+    height: 400px;
+    float: left;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-size: cover;
+}
+#con{
+    margin-top: 250px;
+}
+#tt{
+    float: left;
+    background-color: black;
+    color: aliceblue;
+    height: 2em;
+    line-height: 2em;
+    width: 6em;
+    margin-left: 1em;
+    border: 1px solid white;
+    border-radius: 6px;
+    margin-bottom: 0;
+}
+#ft{
+    float: left;
+    color: aliceblue;
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-top: 0%;
+    margin-right: 1em;
+}
+#yt img{
+    width: 30px;
+    border-radius: 50%;
+}
+#yt{
+    float: left;
+    height: 30px;
+    color: aliceblue;
+}
+#cal{
+    width: 30px;
+    object-fit: cover;
+    float: left;
+    padding-left: 80px;
+}
+.th{
+    width: 50px;
+    margin-left: 5px;
+    margin-right: 0;
+    margin-top: 5px;
+}
+#yt p{
+    float: left;
+    line-height: 0;
+    padding-bottom: 20px;
+
+}
+
+#l2{
+    background-image: url("ne2.png");
+    width: 250px;
+    height: 400px;
+    float: left;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-size: cover;
+}
+#yt1 img{
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 2.5x;
+}
+#yt1{
+    float: left;
+    height: 30px;
+    color: aliceblue;
+}
+#cal1{
+    width: 30px;
+    object-fit: cover;
+    float: left;
+    padding-left: 20px;
+}
+.th1{
+    width: 50px;
+    margin-left: 3px;
+    margin-right: 0px;
+    line-height: 10px;
+    margin-top: 10px;
+}
+#yt1 p{
+    float: left;
+    line-height: 0;
+    padding-bottom: 20px;
+}
+
+#l3{
+    width: 250px;
+    height: 400px;
+    float: left;
+    border-radius: 10px;
+    margin-left: -10px;
+    margin-top: 20px;
+    background-size: cover;
+}
+#l3 li{
+    list-style: none;
+}
+
+#li1{
+    background-image: url("tea.png");
+    width: 250px;
+    height: 190px;
+    border-radius: 10px;
+    background-size: cover;
+    line-height: 0%;
+    padding: 0cap;
+}
+#li2{
+    background-image: url("heaf.png");
+    width: 250px;
+    height: 190px;
+    border-radius: 10px;
+    background-size: cover;
+    line-height: 0%;
+    padding: 0cap;
+    margin-top: 10px;
+    margin-left: 0%;
+}
+#con1{
+    padding-top: 70px;
+}
+
+.th2{
+    width: 50px;
+    margin-left: 3px;
+    margin-top: 13px;
+}
+
+#cal2{
+    height: 20px;
+}
+#l4{
+    width: 350px;
+    height: 400px;
+    float: left;
+    border-radius: 10px;
+    margin-left: 50px;
+    margin-top: 30px;
+    background-size: cover;
+    text-align: left;
+}
+#jo{
+    margin-left: -37px;
+    margin-top: 2px;
+}
+#l4 li{
+    list-style: none;
+}
+#too{
+    float: left;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+}
+.nn{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.nn2{
+    text-align: center;
+}
+#ii{
+    height: 70px;
+    width: 50x;
+    float: left;
+}
+#content{
+    float: left;
+    width: 60px;
+    margin-top: 10px;
+}
+#nee{
+    float: left;
+    margin-top: 4px;
+}
+#clin{
+    float: right;
+    width:200px;
+}
+#yt2{
+    float:left;
+}
+#cal3{
+    height: 20px;
+    width: 20px;
+    float: left;
+}
+#date{
+    float: left;
+    margin-top: 0px;
+    margin-left: 5px;
+}
+#hai{
+    height: 140px;
+    border-bottom: 1.5px solid grey;
+}
+#aain{
+    margin-top: -5px;
+    height: 90px;
+    border-bottom: 1.5px solid grey;
+}
+#it{
+    width: 50px;
+    height: 70px;
+}
+
+#l:hover,#l2:hover,#li1:hover ,#li2:hover{
+    border:2px solid black;
+    border-radius: 6px;
+}
+.nn2:hover{
+    border:1px solid black;
+    border-radius: 0px;
+}
